@@ -3,67 +3,103 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DaanRC | Carta de Presentación</title>
-    <!-- TailwindCSS CDN temporal para desarrollo visual -->
+    <title>Daniel Roque | CV</title>
+    <!-- TailwindCSS CDN para estilos -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <style>
       body { font-family: 'Montserrat', 'Inter', sans-serif; }
+      ::selection { background: #a7f3d0; }
     </style>
   </head>
-  <body class="bg-gray-50 min-h-screen flex items-center justify-center p-4">
-    <main class="bg-white/90 shadow-xl rounded-3xl max-w-3xl w-full p-8 flex flex-col items-center gap-8">
+  <body class="bg-gradient-to-br from-teal-100 via-white to-blue-100 min-h-screen flex items-center justify-center p-4">
+    <main class="relative bg-white/95 shadow-2xl rounded-3xl max-w-2xl w-full px-8 py-12 flex flex-col items-center gap-10 border border-gray-200">
+      <!-- Círculo decorativo -->
+      <div class="absolute -top-16 left-1/2 -translate-x-1/2 w-40 h-40 bg-gradient-to-tr from-teal-300 via-blue-200 to-white rounded-full blur-2xl opacity-60 z-0"></div>
       <!-- Foto de perfil -->
-      <img src="images/fotoDAANRC.jpg" alt="Foto de DaanRC" class="w-32 h-32 rounded-full object-cover shadow-md border-4 border-white -mt-20" />
+      <div class="relative z-10">
+        <img src="images/fotoDAANRC.jpg" alt="Foto de Daniel Roque" class="w-36 h-36 rounded-full object-cover shadow-lg border-4 border-white ring-4 ring-teal-200" />
+      </div>
       <!-- Nombre y descripción -->
-      <section class="text-center">
-        <h1 class="text-3xl font-bold text-gray-800 mb-2">Daniel Roque</h1>
-        <p class="text-gray-600 text-lg max-w-xl mx-auto">Desarrollador apasionado por la tecnología, la innovación y la creación de soluciones digitales. Me especializo en desarrollo web y móvil, siempre buscando aprender y aplicar nuevas tecnologías para crear productos de calidad.</p>
+      <section class="text-center z-10">
+        <h1 class="text-4xl font-extrabold text-gray-800 mb-2 tracking-tight drop-shadow">Daniel Roque</h1>
+        <p class="text-gray-600 text-lg max-w-lg mx-auto leading-relaxed font-medium">Desarrollador apasionado por la tecnología, la innovación y la creación de soluciones digitales. Especialista en desarrollo web y móvil, siempre aprendiendo y aplicando nuevas tecnologías para crear productos de calidad y experiencias memorables.</p>
       </section>
       <!-- Tecnologías y lenguajes -->
-      <section class="w-full">
-        <h2 class="text-xl font-semibold text-gray-700 mb-3">Tecnologías y Lenguajes</h2>
-        <div class="flex flex-wrap justify-center gap-4">
-          <!-- Ejemplo de iconos, puedes reemplazar por imágenes locales si lo prefieres -->
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="w-10 h-10" title="JavaScript" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" class="w-10 h-10" title="TypeScript" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" class="w-10 h-10" title="React" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" class="w-10 h-10" title="Node.js" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" class="w-10 h-10" title="HTML5" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" class="w-10 h-10" title="CSS3" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="TailwindCSS" class="w-10 h-10" title="TailwindCSS" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" class="w-10 h-10" title="Firebase" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="w-10 h-10" title="Python" />
-          <!-- Puedes agregar más según tus proyectos -->
+      <section class="w-full z-10">
+        <h2 class="text-lg font-semibold text-gray-700 mb-4 tracking-wide uppercase">Tecnologías y Lenguajes</h2>
+        <div class="flex flex-wrap justify-center gap-5">
+          <div class="flex flex-col items-center">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="w-10 h-10" title="JavaScript" />
+            <span class="text-xs text-gray-500 mt-1">JavaScript</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" class="w-10 h-10" title="TypeScript" />
+            <span class="text-xs text-gray-500 mt-1">TypeScript</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" class="w-10 h-10" title="React" />
+            <span class="text-xs text-gray-500 mt-1">React</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" class="w-10 h-10" title="Node.js" />
+            <span class="text-xs text-gray-500 mt-1">Node.js</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" class="w-10 h-10" title="HTML5" />
+            <span class="text-xs text-gray-500 mt-1">HTML5</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" class="w-10 h-10" title="CSS3" />
+            <span class="text-xs text-gray-500 mt-1">CSS3</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="TailwindCSS" class="w-10 h-10" title="TailwindCSS" />
+            <span class="text-xs text-gray-500 mt-1">TailwindCSS</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" class="w-10 h-10" title="Firebase" />
+            <span class="text-xs text-gray-500 mt-1">Firebase</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="w-10 h-10" title="Python" />
+            <span class="text-xs text-gray-500 mt-1">Python</span>
+          </div>
         </div>
       </section>
       <!-- Proyectos destacados -->
-      <section class="w-full">
-        <h2 class="text-xl font-semibold text-gray-700 mb-3">Proyectos Destacados</h2>
-        <div class="flex flex-wrap justify-center gap-8">
+      <section class="w-full z-10">
+        <h2 class="text-lg font-semibold text-gray-700 mb-4 tracking-wide uppercase">Proyectos Destacados</h2>
+        <div class="flex flex-wrap justify-center gap-10">
           <!-- Proyecto Bloom Beauty -->
-          <a href="https://github.com/FuckingGodRoque/Bloom-Beauty" target="_blank" class="flex flex-col items-center group">
-            <img src="images/LogoBloomBeauty.png" alt="Bloom Beauty" class="w-20 h-20 object-contain rounded-xl shadow group-hover:scale-105 transition-transform" />
-            <span class="mt-2 text-gray-700 font-medium text-sm">Bloom Beauty</span>
-            <span class="text-gray-500 text-xs text-center">E-commerce de productos de belleza. React, Firebase, TailwindCSS.</span>
+          <a href="https://github.com/FuckingGodRoque/Bloom-Beauty" target="_blank" class="flex flex-col items-center group transition-transform hover:scale-105">
+            <div class="bg-gradient-to-tr from-pink-200 via-white to-teal-100 p-3 rounded-2xl shadow-lg">
+              <img src="images/LogoBloomBeauty.png" alt="Bloom Beauty" class="w-20 h-20 object-contain rounded-xl" />
+            </div>
+            <span class="mt-3 text-gray-800 font-semibold text-base">Bloom Beauty</span>
+            <span class="text-gray-500 text-xs text-center max-w-[8rem]">E-commerce de productos de belleza. React, Firebase, TailwindCSS.</span>
           </a>
           <!-- Proyecto CoffeeShop App -->
-          <a href="https://github.com/ArmandoCasanova/coffeeshop-app" target="_blank" class="flex flex-col items-center group">
-            <img src="images/LogoCooffeeShop-App.png" alt="CoffeeShop App" class="w-20 h-20 object-contain rounded-xl shadow group-hover:scale-105 transition-transform" />
-            <span class="mt-2 text-gray-700 font-medium text-sm">CoffeeShop App</span>
-            <span class="text-gray-500 text-xs text-center">App de pedidos para cafetería. React Native, Node.js, Firebase.</span>
+          <a href="https://github.com/ArmandoCasanova/coffeeshop-app" target="_blank" class="flex flex-col items-center group transition-transform hover:scale-105">
+            <div class="bg-gradient-to-tr from-yellow-100 via-white to-amber-200 p-3 rounded-2xl shadow-lg">
+              <img src="images/LogoCooffeeShop-App.png" alt="CoffeeShop App" class="w-20 h-20 object-contain rounded-xl" />
+            </div>
+            <span class="mt-3 text-gray-800 font-semibold text-base">CoffeeShop App</span>
+            <span class="text-gray-500 text-xs text-center max-w-[8rem]">App de pedidos para cafetería. React Native, Node.js, Firebase.</span>
           </a>
           <!-- Proyecto TripTalk -->
-          <a href="https://github.com/FuckingGodRoque/TripTalk" target="_blank" class="flex flex-col items-center group">
-            <img src="images/LogoTripTalk.png" alt="TripTalk" class="w-20 h-20 object-contain rounded-xl shadow group-hover:scale-105 transition-transform" />
-            <span class="mt-2 text-gray-700 font-medium text-sm">TripTalk</span>
-            <span class="text-gray-500 text-xs text-center">Red social para viajeros. React, Node.js, MongoDB, TailwindCSS.</span>
+          <a href="https://github.com/FuckingGodRoque/TripTalk" target="_blank" class="flex flex-col items-center group transition-transform hover:scale-105">
+            <div class="bg-gradient-to-tr from-blue-100 via-white to-teal-100 p-3 rounded-2xl shadow-lg">
+              <img src="images/LogoTripTalk.png" alt="TripTalk" class="w-20 h-20 object-contain rounded-xl" />
+            </div>
+            <span class="mt-3 text-gray-800 font-semibold text-base">TripTalk</span>
+            <span class="text-gray-500 text-xs text-center max-w-[8rem]">Red social para viajeros. React, Node.js, MongoDB, TailwindCSS.</span>
           </a>
         </div>
       </section>
     </main>
-    <footer class="mt-8 text-center text-gray-400 text-xs">Hecho con ❤️ por Daniel Roque | 2025</footer>
+    <footer class="mt-10 text-center text-gray-400 text-xs tracking-wide">Hecho con ❤️ por Daniel Roque | 2025</footer>
   </body>
 </html>
