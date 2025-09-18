@@ -1,6 +1,5 @@
 <template>
   <div class="min-h-screen w-full bg-gradient-to-br from-[#f8fafc] via-[#f1f5f9] to-[#f0e7ff] text-[#23272f] font-['Inter','Merriweather','serif'] flex flex-col">
-    <!-- Header flotante minimalista -->
     <header class="w-full flex justify-between items-center px-8 py-6 bg-white/80 shadow-lg fixed top-0 left-0 z-30">
       <span class="text-xl font-bold tracking-tight text-[#6366f1]">Daan<span class="text-[#e1306c]">RC</span></span>
       <nav class="flex gap-8 text-base font-medium">
@@ -9,7 +8,6 @@
         <a href="#contacto" class="hover:text-[#25d366] transition">Contacto</a>
       </nav>
     </header>
-    <!-- Hero principal -->
     <section class="relative flex flex-col md:flex-row items-center justify-center gap-10 pt-32 pb-16 px-6 md:px-0 animate-fade-in">
       <div class="relative flex-shrink-0">
         <img :src="fotoDAANRC" alt="Daniel Adrian Roque Cortes" class="w-44 h-44 md:w-56 md:h-56 rounded-full border-8 border-[#6366f1] shadow-2xl object-cover object-center z-10 hover:scale-105 transition-transform duration-300" />
@@ -26,7 +24,6 @@
         <p class="text-[#23272f] text-base md:text-lg leading-relaxed mb-2">Apasionado por crear experiencias digitales <span class="bg-[#f3e8ff] px-2 rounded">visuales</span>, <span class="bg-[#dbeafe] px-2 rounded">interactivas</span> y <span class="bg-[#bbf7d0] px-2 rounded">modernas</span>. Creativo, responsable y siempre aprendiendo nuevas tecnologías.</p>
       </div>
     </section>
-    <!-- Skills chips -->
     <section id="tecnologias" class="w-full max-w-4xl mx-auto px-4 py-8 animate-slide-in">
       <h2 class="text-2xl font-bold text-[#6366f1] mb-6 text-center">Skills & Tecnologías</h2>
       <div class="flex flex-wrap justify-center gap-4">
@@ -36,7 +33,6 @@
         </div>
       </div>
     </section>
-    <!-- Proyectos destacados -->
     <section id="proyectos" class="w-full max-w-6xl mx-auto px-4 py-12 animate-fade-in">
       <h2 class="text-2xl font-bold text-[#e1306c] mb-8 text-center">Proyectos Destacados</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
@@ -49,7 +45,6 @@
         </a>
       </div>
     </section>
-    <!-- Contacto visual -->
     <section id="contacto" class="w-full max-w-3xl mx-auto px-4 py-12 animate-slide-in">
       <h2 class="text-2xl font-bold text-[#25d366] mb-8 text-center">Contacto</h2>
       <div class="flex flex-wrap justify-center gap-8">
@@ -75,8 +70,6 @@
         </a>
       </div>
     </section>
-    <!-- Sin footer -->
-  <!-- cierre principal -->
     <!-- (Eliminado contenido duplicado y footer antiguo) -->
   </div>
 </template>
