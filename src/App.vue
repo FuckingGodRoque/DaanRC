@@ -22,7 +22,7 @@
       </div>
       <div class="max-w-xl text-center md:text-left">
         <h1 class="text-4xl md:text-5xl font-extrabold mb-3 leading-tight"><span class="text-[#6366f1]">Daniel Adrian</span> Roque Cortes</h1>
-        <p class="text-[#64748b] text-lg mb-4 font-medium">Full Stack Developer <span class="text-[#e1306c]">|</span> Ingeniero en Computación</p>
+  <p class="text-[#64748b] text-lg mb-4 font-medium">Full Stack Developer <span class="text-[#e1306c]">|</span> Estudiante de ingeniería en sistemas computacionales</p>
         <p class="text-[#23272f] text-base md:text-lg leading-relaxed mb-2">Apasionado por crear experiencias digitales <span class="bg-[#f3e8ff] px-2 rounded">visuales</span>, <span class="bg-[#dbeafe] px-2 rounded">interactivas</span> y <span class="bg-[#bbf7d0] px-2 rounded">modernas</span>. Creativo, responsable y siempre aprendiendo nuevas tecnologías.</p>
       </div>
     </section>
